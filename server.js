@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001','https://urbanflowsl.netlify.app/'], // Next.js dev server
+  origin: ['http://localhost:3000', 'http://localhost:3001','https://urbanflowsl.netlify.app'], // Next.js dev server
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
